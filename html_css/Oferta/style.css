@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-wrapper .top-nav {
+  background-color: #0d4c92;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.nav-wrapper .top-nav a {
+  width: 15%;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.nav-wrapper .logo-container {
+  position: relative;
+}
+
+.nav-wrapper .logo-container img {
+  width: 100%;
+}
+
+.nav-wrapper .logo-container .logo-text {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.logo-container .logo-text h1 {
+  font-size: 72px;
+  margin-bottom: 45px;
+}
+
+.logo-container .logo-text h2 {
+  font-size: 48px;
+  margin-bottom: 35px;
+}
+
+.logo-container .logo-text p {
+  color: black;
+  background: gray;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 10px 100px;
+  margin-bottom: 35px;
+}
+
+.nav-wrapper .bottom-nav {
+  color: black;
+  font-weight: 800;
+  height: 90px;
+  overflow: hidden;
+  vertical-align: top;
+  box-sizing: content-box;
+  white-space: nowrap;
+  margin-top: -5px;
+}
+
+.nav-wrapper .bottom-nav a {
+  width: calc(25% + 1.9px);
+  display: inline-block;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  font-size: 22px;
+  height: 100%;
+  vertical-align: top;
+  box-sizing: content-box;
+  margin-right: -5px;
+  color: black;
+}
+
+.green {
+  background-color: rgb(160, 228, 203);
+}
+
+.dark-green {
+  background-color: rgb(89, 193, 189);
+}
+
+.main {
+  padding: 80px;
+  box-sizing: content-box;
+  white-space: nowrap;
+}
+
+.left-wrapper {
+  /* width: 68%; */
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  /* margin-right: 60px; */
+}
+
+.left-wrapper .gallery {
+  overflow: hidden;
+  width: 68%;
+}
+
+.gallery .img-horizontal img {
+  vertical-align: center;
+}
+
+.gallery .img-horizontal .img-s {
+  height: 610px;
+  padding-right: 60px;
+}
+
+.gallery .img-horizontal .img-d {
+  background-image: url("./img/2_bedroom_maddalena_suite_baglioni_resort_sardinia-560x350.jpg");
+  background-repeat: no-repeat;
+  background-position: -250px;
+  object-fit: cover;
+  overflow: hidden;
+  background-size: 1010px;
+}
+
+.right-wrapper {
+  vertical-align: top;
+  width: 30%;
+  box-sizing: border-box;
+  background-color: rgb(238, 238, 238);
+  display: inline-block;
+  padding: 60px;
+  text-align: center;
+  height: 1022px;
+  overflow: hidden;
+}
+
+.right-wrapper .content {
+  margin-bottom: 211.5px;
+}
+
+.right-wrapper .content .content-details {
+  text-align: center;
+}
+
+.right-wrapper .content h1 {
+  padding-bottom: 25px;
+}
+
+.right-wrapper .content i {
+  font-size: 55px;
+  border: 2px solid black;
+  padding: 1px 12px;
+  border-radius: 100px;
+  vertical-align: middle;
+}
+
+.right-wrapper .content span {
+  font-weight: 700;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.main .info {
+  width: 100%;
+}
+
+.main .info p {
+  word-break: break-all;
+  white-space: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 150px;
+}
+
+/* page2 */
+
+.left-wrapper.offer {
+  width: 50%;
+}
+
+.left-wrapper.offer .img-view {
+  margin: 20px;
+  height: 500px;
+  background-color: rgb(217, 217, 217);
+}
+
+.left-wrapper.offer h1 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.we-offer-list {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.we-offer-list .we-offer-list-element {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.we-offer-list-element .we-offer-list-square {
+  width: 50px;
+  height: 100%;
+  background: rgb(217, 217, 217);
+}
+
+.right-wrapper.hotel-description {
+  width: 50%;
+  height: 938px;
+}
+
+.right-wrapper.hotel-description h1 {
+  word-break: break-all;
+  white-space: normal;
+  margin-bottom: 70px;
+}
+
+.info-list {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.info-list .info-list-element {
+  display: inline-block;
+  width: 15%;
+  height: 190px;
+  background: rgb(217, 217, 217);
+  margin: 50px;
+}
+
+/* page3 */
+
+.main.pg3 {
+  padding-left: 0 !important;
+  overflow: hidden;
+}
+
+.main-wrapper-list-element {
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.main-wrapper-list-element .element-content {
+  width: 75%;
+  text-align: center;
+  word-break: keep-all;
+  white-space: normal;
+}
+
+.main-wrapper-list-element .element-content p {
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.main-wrapper-list-element .element-content .btn {
+  text-align: left !important;
+  /* background: #000; */
+  margin-top: 180px;
+  width: 100%;
+}
+
+.main-wrapper-list-element .element-content button {
+  background-color: rgb(13, 76, 146);
+  color: white;
+  padding: 10px 30px;
+  font-size: 22px;
+  text-align: left;
+}
+
+.main-wrapper-list-element .element-content {
+  padding: 20px 130px;
+  box-sizing: border-box;
+}
+
+.main-wrapper-list-element .img {
+  width: 500px;
+  object-fit: cover;
+  height: 500px;
+}
+
+.main-wrapper-list-element div {
+  display: inline-block;
+}
+
+.main-wrapper-list-element .element-content {
+  vertical-align: top;
+}
+
+/* page 4 */
+
+.main.pg4 {
+  padding: 80px !important;
+}
+
+.main-wrapper-list-els {
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 50px;
+  background: rgb(230, 230, 230);
+}
+
+.main-wrapper-list-el p {
+  display: inline-block;
+  font-size: 24px;
+  vertical-align: top;
+  width: 70%;
+  word-break: keep-all;
+  white-space: normal;
+  font-weight: 700;
+}
+
+.main-wrapper-list-el .block {
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  margin-right: 100px;
+}
+
+.offer {
+  margin: auto;
+  display: block;
+}

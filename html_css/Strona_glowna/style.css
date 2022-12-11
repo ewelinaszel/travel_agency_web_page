@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-wrapper .top-nav {
+    background-color: #0d4c92;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+  }
+
+  .nav-wrapper .top-nav a {
+    width: 15%;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+  }
+  .nav-wrapper .top-nav a:hover {
+    width: 15%;
+    font-size: 20px;
+    color: rgb(177, 174, 174);
+    font-weight: 700;
+    display: inline-block;
+  }
+  .main .title{
+    position: absolute;
+    width: 1540px;
+    height: 600px;
+    top: 105px;
+    background-image: url("img/beach-gf4262a498_1920.jpg");
+
+}
+  .main .title .title-text{
+    position: absolute;
+    width: 862px;
+    height: 292px;
+    left: 24px;
+    top: 380px;
+  }
+  .main .title .title-text h1{
+    position: absolute;
+    width: 736px;
+    height: 152px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+  .main .title .title-text p{
+    position: absolute;
+    width: 704px;
+    height: 50px;
+    left: -5px;
+    top: 166px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 255, 255)
+  }
+  .main .philosophy{
+    position: absolute;
+    width: 579px;
+    height: 269px;
+    left: 431px;
+    top: 969px;
+  }
+  .main .philosophy h2{
+    position: absolute;
+    width: 514px;
+    height: 71px;
+    left: 172px;
+    top: -50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+  }
+  .main .philosophy p{
+    position: absolute;
+    width: 579px;
+    height: 269px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .main .philosophy .read_more{
+    position: absolute;
+    width: 255px;
+    height: 45px;
+    left: 168px;
+    top:280px;
+    background: #D9D9D9;
+    border-radius: 20px;
+  }
+  .main .philosophy .read_more a{
+    position: absolute;
+    width: 228px;
+    height: 31px;
+    left: 80px;
+    top:8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  .main .philosophy .read_more a:hover{
+    color: grey;
+  }
+  .main .in_touch_para{
+    position: absolute;
+    width: 1600px;
+    height: 300px;
+    left: 0px;
+    top: 1562px;
+    
+    background:  #59C1BD;
+
+  }
+  .main .in_touch_para h2{
+    position: absolute;
+    width: 634px;
+    height: 54px;
+    left: 18px;
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+  .main .in_touch_para p{
+    position: absolute;
+width: 900px;
+height: 424px;
+left: 18px;
+top: -80px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+  }
+  .main .in_touch_para .email_para{
+    position: absolute;
+    width: 500px;
+    height: 70px;
+    left: 700px;
+    top: 150px;
+
+    background: #FFFFFF;
+    border-radius: 40px;
+  }
+  .main .in_touch_para .email_para p{
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 35px;
+    top: 25px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .main .in_touch_para .subscribe_para{
+    position: absolute;
+    width: 150.5px;
+    height: 70px;
+    left: 1050px;
+    top: 150px;
+
+    background:#D9D9D9;
+    border-radius: 40px;
+  }
+  .main .in_touch_para .subscribe_para a{
+    position: absolute;
+    width: 139px;
+    height: 24px;
+    left: 38px;
+    top: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+  }
+  .main .in_touch_para .subscribe_para:hover{
+    background-color:#959191;
+  }
+  .main .opinion h2{
+    position: absolute;
+    width: 514px;
+    height: 71px;
+    left: 650px;
+    top: 2041px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+  }
+  .main .opinion p{
+    position: absolute;
+    width: 1193px;
+    height: 70px;
+    left: 540px;
+    top: 2167px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+
+.main .opinion img{
+    position: absolute;
+    width: 800px;
+    left: 360px;
+    top: 2250px;
+}
