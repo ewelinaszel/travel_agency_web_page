@@ -65,6 +65,14 @@ a:active {
     line-height: 73px;
     color: #000000;
   }
+  .main .decription {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color:#283544;
+  }
   /********************************OFFERS**********************************/
   .main .offers{
     display: grid;
