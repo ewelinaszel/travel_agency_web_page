@@ -11,6 +11,18 @@ a:active {
   padding: 0;
   margin: 0;
 }
+.logo{
+  margin-left: 50px;
+  float: left;
+  width: 12%;
+  z-index: 1001;
+  position: fixed;
+
+}
+.logo img:hover{
+  transition-duration: 1s;
+  opacity:0.5;
+}
 .nav-wrapper .top-nav {
     background-color: #0d4c92;
     height: 45px;
@@ -173,7 +185,6 @@ a:active {
 .main .copy p{
   font-size: 15px;
   background-color: white;
-
 }
 
 

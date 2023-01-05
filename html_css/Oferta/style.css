@@ -92,12 +92,28 @@ a:active {
   color: black;
 }
 
+.gold {
+  background-color: rgb(255, 228, 120);
+}
+
+.dark-gold {
+  background-color: rgb(193, 183, 89);
+}
+
 .green {
   background-color: rgb(160, 228, 203);
 }
 
 .dark-green {
   background-color: rgb(89, 193, 189);
+}
+
+.pink {
+  background-color: rgb(242, 165, 237);
+}
+
+.dark-pink {
+  background-color: rgb(177, 30, 142);
 }
 
 .main {
@@ -107,20 +123,17 @@ a:active {
 }
 
 .left-wrapper {
-  /* width: 68%; */
-  /* display: inline-block; */
-  display: flex;
-  justify-content: center;
-  /* margin-right: 60px; */
+  width: 68%;
+  display: inline-block;
+  margin-right: 60px;
 }
 
 .left-wrapper .gallery {
   overflow: hidden;
-  width: 68%;
 }
 
 .gallery .img-horizontal img {
-  vertical-align: center;
+  vertical-align: top;
 }
 
 .gallery .img-horizontal .img-s {
@@ -129,7 +142,7 @@ a:active {
 }
 
 .gallery .img-horizontal .img-d {
-  background-image: url("./img/2_bedroom_maddalena_suite_baglioni_resort_sardinia-560x350.jpg");
+  background-image: url("./img/pokojJapan.jpg.webp");
   background-repeat: no-repeat;
   background-position: -250px;
   object-fit: cover;
@@ -188,6 +201,24 @@ a:active {
   margin-top: 150px;
 }
 
+.icon {
+  width: 120px;
+  vertical-align: middle;
+  margin-left: -54px;
+}
+
+.icon-2 {
+  width: 100px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.icon-3 {
+  width: 210px;
+  vertical-align: middle;
+  margin-left: -94px;
+}
+
 /* page2 */
 
 .left-wrapper.offer {
@@ -211,14 +242,18 @@ a:active {
 }
 
 .we-offer-list .we-offer-list-element {
-  height: 50px;
+  height: 70px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .we-offer-list-element .we-offer-list-square {
-  width: 50px;
+  width: 70px;
   height: 100%;
-  background: rgb(217, 217, 217);
+  /* background: rgb(217, 217, 217); */
+  position: absolute;
+  left: 0px;
+  top: -17px;
 }
 
 .right-wrapper.hotel-description {
@@ -241,8 +276,135 @@ a:active {
   display: inline-block;
   width: 15%;
   height: 190px;
-  background: rgb(217, 217, 217);
   margin: 50px;
+}
+
+.content-details h1.text {
+  font-size: 24px;
+}
+.img-taj {
+  background-image: url("./img/The-Peninsula-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-31 {
+  background-image: url("./img/j3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-32 {
+  background-image: url("./img/32hotel.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-33 {
+  background-image: url("./img/33eea9d920c21bd2a2ff76860a5ed8cfa7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-34 {
+  background-image: url("./img/3435194.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-35 {
+  background-image: url("./img/3598768.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+.img-lodka {
+  background-image: url("./img/lodka.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-s1 {
+  background-image: url("./img/s1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-s2 {
+  background-image: url("./img/s3.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-s3 {
+  background-image: url("./img/s4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-s3 {
+  background-image: url("./img/s5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-s4 {
+  background-image: url("./img/s2.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-h1 {
+  background-image: url("./img/h1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-h2 {
+  background-image: url("./img/h2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-h3 {
+  background-image: url("./img/h3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-36 {
+  background-image: url("./img/j1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-37 {
+  background-image: url("./img/j2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-38 {
+  background-image: url("./img/j3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-39 {
+  background-image: url("./img/j4.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-h2-display {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* page3 */
@@ -335,10 +497,37 @@ a:active {
   display: inline-block;
   height: 140px;
   width: 140px;
-  margin-right: 100px;
+  margin-right: 170px;
 }
 
-.offer {
-  margin: auto;
-  display: block;
+.img-40 {
+  background-image: url("./img/439.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-41 {
+  background-image: url("./img/40jake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-42 {
+  background-image: url("./img/41z24644629AMP\,Isaa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-43 {
+  background-image: url("./img/42pakiet-kobieta-50-badamysie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
 }
