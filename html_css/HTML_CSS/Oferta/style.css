@@ -1,0 +1,607 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.logo{
+  margin-left: 50px;
+  float: left;
+  width: 12%;
+  z-index: 1001;
+  position: fixed;
+}
+.logo img:hover{
+  transition-duration: 1s;
+  opacity:0.5;
+}
+.nav-wrapper .top-nav {
+  background-color: #0d4c92;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.nav-wrapper .top-nav a {
+  width: 15%;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  display: inline-block;
+}
+.nav-wrapper .top-nav a:hover {
+  color: #111;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+
+}
+.nav-wrapper .logo-container {
+  position: relative;
+}
+
+.nav-wrapper .logo-container img {
+  width: 100%;
+}
+
+.nav-wrapper .logo-container .logo-text {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.logo-container .logo-text h1 {
+  font-size: 72px;
+  margin-bottom: 45px;
+}
+
+.logo-container .logo-text h2 {
+  font-size: 48px;
+  margin-bottom: 35px;
+}
+
+.logo-container .logo-text p {
+  color: black;
+  background: gray;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 10px 100px;
+  margin-bottom: 35px;
+}
+
+.nav-wrapper .bottom-nav {
+  color: black;
+  font-weight: 800;
+  height: 90px;
+  overflow: hidden;
+  vertical-align: top;
+  box-sizing: content-box;
+  white-space: nowrap;
+  margin-top: -5px;
+}
+
+.nav-wrapper .bottom-nav a {
+  width: calc(25% + 1.9px);
+  display: inline-block;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  font-size: 22px;
+  height: 100%;
+  vertical-align: top;
+  box-sizing: content-box;
+  margin-right: -5px;
+  color: black;
+}
+
+.gold {
+  background-color: rgb(255, 228, 120);
+}
+
+.dark-gold {
+  background-color: rgb(193, 183, 89);
+}
+
+.green {
+  background-color: rgb(160, 228, 203);
+}
+
+.dark-green {
+  background-color: rgb(89, 193, 189);
+}
+
+.pink {
+  background-color: rgb(242, 165, 237);
+}
+
+.dark-pink {
+  background-color: rgb(177, 30, 142);
+}
+
+.main {
+  padding: 80px;
+  box-sizing: content-box;
+  white-space: nowrap;
+}
+
+.left-wrapper {
+  width: 68%;
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.left-wrapper .gallery {
+  overflow: hidden;
+}
+
+.gallery .img-horizontal img {
+  vertical-align: top;
+}
+
+.gallery .img-horizontal .img-s {
+  height: 610px;
+  padding-right: 60px;
+}
+
+.gallery .img-horizontal .img-d {
+  background-image: url("./img/pokojJapan.jpg.webp");
+  background-repeat: no-repeat;
+  background-position: -250px;
+  object-fit: cover;
+  overflow: hidden;
+  background-size: 1010px;
+}
+
+.right-wrapper {
+  vertical-align: top;
+  width: 30%;
+  box-sizing: border-box;
+  background-color: rgb(238, 238, 238);
+  display: inline-block;
+  padding: 60px;
+  text-align: center;
+  height: 1022px;
+  overflow: hidden;
+}
+
+.right-wrapper .content {
+  margin-bottom: 211.5px;
+}
+
+.right-wrapper .content .content-details {
+  text-align: center;
+}
+
+.right-wrapper .content h1 {
+  padding-bottom: 25px;
+}
+
+.right-wrapper .content i {
+  font-size: 55px;
+  border: 2px solid black;
+  padding: 1px 12px;
+  border-radius: 100px;
+  vertical-align: middle;
+}
+
+.right-wrapper .content span {
+  font-weight: 700;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.main .info {
+  width: 100%;
+}
+
+.main .info p {
+  word-break: break-all;
+  white-space: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 150px;
+}
+
+.icon {
+  width: 120px;
+  vertical-align: middle;
+  margin-left: -54px;
+}
+
+.icon-2 {
+  width: 100px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.icon-3 {
+  width: 210px;
+  vertical-align: middle;
+  margin-left: -94px;
+}
+
+/* page2 */
+
+.left-wrapper.offer {
+  width: 50%;
+}
+
+.left-wrapper.offer .img-view {
+  margin: 20px;
+  height: 500px;
+  background-color: rgb(217, 217, 217);
+}
+
+.left-wrapper.offer h1 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.we-offer-list {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.we-offer-list .we-offer-list-element {
+  height: 70px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.we-offer-list-element .we-offer-list-square {
+  width: 70px;
+  height: 100%;
+  /* background: rgb(217, 217, 217); */
+  position: absolute;
+  left: 0px;
+  top: -17px;
+}
+
+.right-wrapper.hotel-description {
+  width: 50%;
+  height: 938px;
+}
+
+.right-wrapper.hotel-description h1 {
+  word-break: break-all;
+  white-space: normal;
+  margin-bottom: 70px;
+}
+
+.info-list {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.info-list .info-list-element {
+  display: inline-block;
+  width: 15%;
+  height: 190px;
+  margin: 50px;
+}
+
+.content-details h1.text {
+  font-size: 18px;
+}
+.img-taj {
+  background-image: url("./img/The-Peninsula-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-31 {
+  background-image: url("./img/j3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.srilanka {
+  background-image: url("./img/srilanka.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.zanz {
+  background-image: url("./img/zhotel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-32 {
+  background-image: url("./img/32hotel.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-33 {
+  background-image: url("./img/33eea9d920c21bd2a2ff76860a5ed8cfa7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-34 {
+  background-image: url("./img/3435194.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-35 {
+  background-image: url("./img/3598768.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+.img-lodka {
+  background-image: url("./img/lodka.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-s1 {
+  background-image: url("./img/s1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-s2 {
+  background-image: url("./img/s3.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-s3 {
+  background-image: url("./img/s4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-s3 {
+  background-image: url("./img/s5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-s4 {
+  background-image: url("./img/s2.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-h1 {
+  background-image: url("./img/h1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-h2 {
+  background-image: url("./img/h2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-h3 {
+  background-image: url("./img/h3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-z1 {
+  background-image: url("./img/z4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-z2 {
+  background-image: url("./img/z3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-z3 {
+  background-image: url("./img/z2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-z4 {
+  background-image: url("./img/z1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-sri {
+  background-image: url("./img/sri1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-sri1 {
+  background-image: url("./img/sri2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-sri2 {
+  background-image: url("./img/sri3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-sri3 {
+  background-image: url("./img/sri4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-36 {
+  background-image: url("./img/j1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-37 {
+  background-image: url("./img/j2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-38 {
+  background-image: url("./img/j3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-39 {
+  background-image: url("./img/j4.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-h2-display {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* page3 */
+
+.main.pg3 {
+  padding-left: 0 !important;
+  overflow: hidden;
+}
+
+.main-wrapper-list-element {
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.main-wrapper-list-element .element-content {
+  width: 75%;
+  text-align: center;
+  word-break: keep-all;
+  white-space: normal;
+}
+
+.main-wrapper-list-element .element-content p {
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.main-wrapper-list-element .element-content .btn {
+  text-align: left !important;
+  /* background: #000; */
+  margin-top: 180px;
+  width: 100%;
+}
+
+.main-wrapper-list-element .element-content button {
+  background-color: rgb(13, 76, 146);
+  color: white;
+  padding: 10px 30px;
+  font-size: 22px;
+  text-align: left;
+}
+
+.main-wrapper-list-element .element-content {
+  padding: 20px 130px;
+  box-sizing: border-box;
+}
+
+.main-wrapper-list-element .img {
+  width: 500px;
+  object-fit: cover;
+  height: 500px;
+}
+
+.main-wrapper-list-element div {
+  display: inline-block;
+}
+
+.main-wrapper-list-element .element-content {
+  vertical-align: top;
+}
+
+/* page 4 */
+
+.main.pg4 {
+  padding: 80px !important;
+}
+
+.main-wrapper-list-els {
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 50px;
+  background: rgb(230, 230, 230);
+}
+
+.main-wrapper-list-el p {
+  display: inline-block;
+  font-size: 24px;
+  vertical-align: top;
+  width: 70%;
+  word-break: keep-all;
+  white-space: normal;
+  font-weight: 700;
+}
+
+.main-wrapper-list-el .block {
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  margin-right: 170px;
+}
+
+.img-40 {
+  background-image: url("./img/439.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-41 {
+  background-image: url("./img/40jake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-42 {
+  background-image: url("./img/41z24644629AMP\,Isaa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-43 {
+  background-image: url("./img/42pakiet-kobieta-50-badamysie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
